@@ -1,0 +1,50 @@
+------------------ Class Sections Taught: ---------------------
+chemistry,joseph
+history,smith
+mathematics,doe
+chemistry,jane
+physics,einstein
+physics,smith
+mathematics,einstein
+history,jane
+
+
+--------------- Classes Taken By Each Student: ---------------------
+2834:  physics
+56767:  mathematics
+323:  physics,history
+1234:  chemistry
+3455:  history,mathematics,chemistry
+999:  physics,chemistry,history
+
+
+--------------- How many Students registered for each class? ---------------------
+chemistry:  3
+mathematics:  2
+physics:  3
+history:  3
+
+
+--------------- How many Students take more than one class ---------------------
+3
+323:  2
+3455:  3
+999:  3
+
+
+--------------- How many Profs teach more than one class ---------------------
+3
+smith:  history,physics
+einstein:  mathematics,physics
+jane:  history,chemistry
+
+
+--------------- Professors with at least 2 classes with 2 or more of the same students ---------------------
+smith:  history,physics :  999 323
+
+
+----------------------SUMMARY-------------------------
+TOTAL ROWS IN FILE: 11
+LINES READ SUCCESSFULLY: 11
+ERRORS DETECTED WHEN ROWS WERE READ: 0
+ERRORS HAVE BEEN LISTED AT THE BEGINNING OF THIS RUN
